@@ -103,7 +103,7 @@ const Block_9 = ({ title, text, listsAbout, listsServices, image1, image2, image
                                 src={image2 ? image2 : imgDefault}
                                 alt='no found'
                                 loading='lazy'
-                                className='md:w-[350px] w-[180px] md:h-[350px] h-[180px] object-cover rounded-full -ml-14 border-[15px] borderColor1'
+                                className='md:w-[350px] w-[180px] md:h-[350px] h-[180px] object-cover rounded-full -ml-0 md:-ml-14 border-[15px] borderColor1'
                                 data-aos="zoom-in"
                                 data-aos-duration="2500"
                             />
